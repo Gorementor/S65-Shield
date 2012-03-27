@@ -13,8 +13,12 @@
 #else			/* Embedded platform */
 
 /* These types must be 16-bit, 32-bit or larger integer */
+#ifndef INT
 typedef int				INT;
+#endif
+#ifndef UINT
 typedef unsigned int	UINT;
+#endif
 
 /* These types must be 8-bit integer */
 #ifndef CHAR

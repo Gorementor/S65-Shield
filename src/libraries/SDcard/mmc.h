@@ -26,6 +26,15 @@
 #  define SD_CLK_PIN         (52)
 # endif
 
+#elif (defined(__AVR_ATmega644__) || \
+       defined(__AVR_ATmega644P__))    //--- Arduino 644 ---
+
+# define SD_PWR_PIN          (12)
+# define SD_CS_PIN           (3)
+# define SD_MOSI_PIN         (5)
+# define SD_MISO_PIN         (6)
+# define SD_CLK_PIN          (7)
+
 #else                                  //--- Arduino Uno ---
 
 # define SD_CS_PIN           (4) //4 or 10
@@ -58,6 +67,15 @@
 #  define SD_MISO_PIN         (50)
 #  define SD_CLK_PIN          (52)
 # endif
+
+#elif (defined(__AVR_ATmega644__) || \
+       defined(__AVR_ATmega644P__))    //--- Arduino 644 ---
+
+# define SD_PWR_PIN          (12)
+# define SD_CS_PIN           (3)
+# define SD_MOSI_PIN         (5)
+# define SD_MISO_PIN         (6)
+# define SD_CLK_PIN          (7)
 
 #else                                  //--- Arduino Uno ---
 

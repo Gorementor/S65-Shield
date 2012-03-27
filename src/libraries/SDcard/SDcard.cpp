@@ -36,12 +36,12 @@ void SDcard::init(uint8_t clock_div)
   //init pins
 #ifdef SD_PWR_PIN
   pinMode(SD_PWR_PIN,  OUTPUT);
-  digitalWrite(SD_PWR_PIN, LOW); //power on
+  digitalWriteFast(SD_PWR_PIN, LOW); //power on
 #endif
   pinMode(SD_CS_PIN,  OUTPUT);
-  digitalWrite(SD_CS_PIN, HIGH); //deselect
+  digitalWriteFast(SD_CS_PIN, HIGH); //deselect
   pinMode(SD_MISO_PIN, INPUT);
-  digitalWrite(SD_MISO_PIN, HIGH); //pull-up
+  digitalWriteFast(SD_MISO_PIN, HIGH); //pull-up
   pinMode(SD_MOSI_PIN, OUTPUT);
   pinMode(SD_CLK_PIN, OUTPUT);
 
@@ -52,6 +52,9 @@ void SDcard::init(uint8_t clock_div)
       defined(__AVR_ATmega2560__) || \
       defined(__AVR_ATmega2561__))     //--- Arduino Mega ---
 #  define SD_SS_PORTBIT (0) //PB0
+# elif (defined(__AVR_ATmega644__) || \
+        defined(__AVR_ATmega644P__))   //--- Arduino 644 ---
+#  define SD_SS_PORTBIT (4) //PB4
 # else                                 //--- Arduino Uno ---
 #  define SD_SS_PORTBIT (2) //PB2
 # endif

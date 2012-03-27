@@ -29,13 +29,13 @@ Known issues
       MISO  50   ->   12
 
   and comment the following lines:
-    libraries/S65Display/S65Display.h:20 (#define S65_SOFTWARE_SPI)
-    libraries/SDcard/mmc.h.h:67 (#define SD_SOFTWARE_SPI)
+    libraries/S65Display/S65Display.h:23 (#define S65_SOFTWARE_SPI)
+    libraries/SDcard/mmc.h.h:56 (#define SD_SOFTWARE_SPI)
 
 
 Third party software
 --------------------
-  ChaN's FatFs 0.08a
+  ChaN's FatFs 0.08b
     http://elm-chan.org/fsw/ff/00index_e.html
 
   Rotary Encoder routine by Peter Dannegger
