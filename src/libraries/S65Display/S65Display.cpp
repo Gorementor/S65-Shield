@@ -10,8 +10,11 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif
-#include "WProgram.h" 
-#include "wiring.h"
+#if ARDUINO >= 100
+#include "Arduino.h"
+#else
+#include "WProgram.h"
+#endif
 #include "../digitalWriteFast/digitalWriteFast.h"
 #include "S65Display.h"
 #include "ls020.h"

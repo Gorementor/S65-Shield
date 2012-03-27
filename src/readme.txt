@@ -56,6 +56,9 @@ License
 
 History
 -------
+         2012  v0.23  Arduino 1.0 compatible.
+                      S65Display Mega bugfix.
+
   Mar 12 2011  v0.22  Added some special LS020 functions.
                       L2F50 bugfix.
 

@@ -17,8 +17,8 @@ extern "C" {
      defined(__AVR_ATmega1281__) || \
      defined(__AVR_ATmega2560__) || \
      defined(__AVR_ATmega2561__))      //--- Arduino Mega ---
-# define S65_RST_PIN         (17) //A3=17
-# define S65_CS_PIN          (16) //A2=16
+# define S65_RST_PIN         (57) //A3=57
+# define S65_CS_PIN          (56) //A2=56
 # define S65_RS_PIN          (4)
 # define S65_SOFTWARE_SPI              //!!! use Software-SPI (default for Arduino Mega)
 # if defined(S65_SOFTWARE_SPI)
