@@ -35,7 +35,7 @@ Known issues
 
 Third party software
 --------------------
-  ChaN's FatFs 0.08b
+  ChaN's FatFs
     http://elm-chan.org/fsw/ff/00index_e.html
 
   Rotary Encoder routine by Peter Dannegger
@@ -56,8 +56,9 @@ License
 
 History
 -------
-         2012  v0.23  Arduino 1.0 compatible.
+  Mar 28 2012  v0.23  Arduino 1.0 compatible.
                       S65Display Mega bugfix.
+                      Updated FatFS to 0.08b.
 
   Mar 12 2011  v0.22  Added some special LS020 functions.
                       L2F50 bugfix.
