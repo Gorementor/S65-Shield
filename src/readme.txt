@@ -5,10 +5,12 @@ S65-Shield Software Package
 
 Installation
 ------------
-  Copy the content of /examples/ and /libraries/ to your 
-  Arduino folder: /arduino/examples/ and /arduino/libraries/
+  Copy the content of /libraries/ to your Arduino lib folder 
+  /arduino/libraries/ or to your user documents folder
+  /My Documents/Arduino/libraries/
   If there are existing folders from a previous installation,
-  delete them before copying.
+  please delete them before copying.
+  Further infos: http://www.arduino.cc/en/Hacking/Libraries
 
 
 Documentation
@@ -56,6 +58,8 @@ License
 
 History
 -------
+         2012  v0.24  New directory struct.
+
   Mar 28 2012  v0.23  Arduino 1.0 compatible.
                       S65Display Mega bugfix.
                       Updated FatFS to 0.08b.
