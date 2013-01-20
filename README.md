@@ -12,10 +12,6 @@ Compatible with Arduino Uno, Duemilanove, Diecimila and Mega (only Software-SPI)
 ![S65-Shield hardware dia](https://github.com/watterott/s65-Shield/raw/master/img/hw_dia.png)
 
 
-## Software
-[Arduino Library + Examples](https://github.com/watterott/S65-Shield/downloads)
-
-
 ## Directories
  /pcb - Schematics and Layout files
 
