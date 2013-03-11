@@ -9,7 +9,7 @@ The S65-Shield is a plug-on module with color TFT-Display (176x132), microSD soc
 ## Hardware
 Compatible with Arduino Uno, Duemilanove, Diecimila and Mega (only Software-SPI).
 
-![S65-Shield hardware dia](raw.https://github.com/watterott/S65-Shield/master/img/hw_dia.png)
+![S65-Shield hardware dia](https://raw.github.com/watterott/S65-Shield/master/img/hw_dia.png)
 
 
 ## Projects
