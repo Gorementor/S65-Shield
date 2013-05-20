@@ -59,8 +59,10 @@ void S65Display::init(uint8_t clock_div)
       defined(__AVR_ATmega2560__) || \
       defined(__AVR_ATmega2561__))     //--- Arduino Mega ---
 #  define S65_SS_PORTBIT (0) //PB0
+# elif defined(__AVR_ATmega32U4__)     //--- Arduino Leonardo ---
+#  define SS_PORTBIT (0) //PB0
 # else                                 //--- Arduino Uno ---
-#  define S65_SS_PORTBIT (2) //PB2
+#  define SS_PORTBIT (2) //PB2
 # endif
   if(!(DDRB & (1<<S65_SS_PORTBIT))) //SS is input
   {

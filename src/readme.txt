@@ -1,38 +1,11 @@
-S65-Shield Software Package
+S65-Shield Software Library
 ===========================
   Visit github.com/watterott/s65-shield for updates.
 
 
-Installation
-------------
-  Copy the content of /libraries/ to your Arduino lib folder 
-  /arduino/libraries/ or to your user documents folder
-  /My Documents/Arduino/libraries/
-  If there are existing folders from a previous installation,
-  please delete them before copying.
-  Further infos: http://www.arduino.cc/en/Hacking/Libraries
-
-
 Documentation
 -------------
-  See docu.htm
-
-
-Known issues
-------------
-  If using the Ethernet-Shield together with the S65-Shield, 
-  this must be initialized before using the SD-Card.
-
-  For Hardware-SPI support on Mega boards connect the S65-Shield
-  as follows:
-           Mega   S65-Shield
-      SCK   52   ->   13
-      MOSI  51   ->   11
-      MISO  50   ->   12
-
-  and comment the following lines:
-    libraries/S65Display/S65Display.h:23 (#define S65_SOFTWARE_SPI)
-    libraries/SDcard/mmc.h.h:56 (#define SD_SOFTWARE_SPI)
+  See docu.md
 
 
 Third party software
@@ -58,7 +31,7 @@ License
 
 History
 -------
-         2012  v0.24  New directory struct.
+         2013  v0.24  New directory struct.
 
   Mar 28 2012  v0.23  Arduino 1.0 compatible.
                       S65Display Mega bugfix.

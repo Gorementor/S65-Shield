@@ -1,7 +1,7 @@
 # S65-Shield
 The S65-Shield is a plug-on module with color TFT-Display (176x132), microSD socket and rotary encoder for Arduino.
 
-<http://www.watterott.com/en/Arduino-S65-Shield>
+http://www.watterott.com/en/Arduino-S65-Shield
 
 ![S65-Shield](https://raw.github.com/watterott/S65-Shield/master/img/s65-shield.jpg)
 
