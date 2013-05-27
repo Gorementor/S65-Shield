@@ -1,8 +1,11 @@
-# S65-Shield Software Library
-French description and additional functions: http://www.mon-club-elec.fr/pmwiki_reference_arduino/pmwiki.php?n=Main.LibrairieS65Shield
+# S65-Shield
+
+French description and additional functions:
+http://www.mon-club-elec.fr/pmwiki_reference_arduino/pmwiki.php?n=Main.LibrairieS65Shield
 
 
 ## Installation
+
 Copy the content of */libraries/* to your Arduino lib folder */arduino/libraries/* or to your user documents folder */My Documents/Arduino/libraries/*
 If there are existing folders from a previous installation, please delete them before copying.
 
@@ -10,6 +13,7 @@ Further infos: http://arduino.cc/en/Guide/Libraries and http://arduino.cc/en/Hac
 
 
 ## Known Issues
+
 If using the Ethernet-Shield together with the S65-Shield, this must be initialized before using the SD-Card.
 
 For Hardware-SPI support on Mega boards connect the S65-Shield as follows:
@@ -209,7 +213,7 @@ The return value is 0 if the mounting failed and 1 if the card is mounted succes
     void unmount(void)
 Unmount the memory card.
 
-See also the FatFS docu for more information about the file system functions (f_open()...):
+See also the FatFS docu for more information about the file system functions (*f_open()*...):
 */libraries/SDcard/doc/00index_e.html* or http://elm-chan.org/fsw/ff/00index_e.html
 To enable LFN support (long file names) set **_USE_LFN** to **1** in */libraries/SDcard/ffconf.h*. The *Demo2* has also LFN support.
 
