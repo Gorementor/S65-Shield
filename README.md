@@ -12,5 +12,9 @@ Compatible with Arduino Uno, Duemilanove, Diecimila and Mega (only Software-SPI)
 ![S65-Shield hardware dia](https://raw.github.com/watterott/S65-Shield/master/img/hw_dia.png)
 
 
+## Software
+* [Arduino Library + Examples](https://github.com/watterott/S65-Shield/tree/master/src)
+
+
 ## Projects
-[Projects using the S65-Shield](https://github.com/watterott/S65-Shield/blob/master/Projects.md)
+* [Projects using the S65-Shield](https://github.com/watterott/S65-Shield/blob/master/Projects.md)
