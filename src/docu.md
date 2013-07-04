@@ -169,13 +169,13 @@ Draw a multi-line string (line end = "\n") from Flash. The return value is the X
 
 #### Note
 
-For colors you can use the **RGB(red,green,blue)** macro.
+For colors you can use the ```RGB(red,green,blue)``` macro.
   
-To rotate or mirror the display uncomment the definitions **S65_ROTATE** or **S65_MIRROR** in */libraries/S65Display/S65Display.h*
+To rotate or mirror the display uncomment the definitions ```S65_ROTATE``` or ```S65_MIRROR``` in */libraries/S65Display/S65Display.h*
 
 The text functions can draw characters from 0x20 to 0x7F and the default font is 8x12.
-To change the font to 8x8 uncomment the **FONT_8X8** definition and comment the **FONT_8X12** definition in */libraries/S65Display/fonts.h*
-To support characters from 0x20 to 0xFF comment the **FONT_END7F** definition in */libraries/S65Display/fonts.h*.
+To change the font to 8x8 uncomment the ```FONT_8X8``` definition and comment the ```FONT_8X12``` definition in */libraries/S65Display/fonts.h*
+To support characters from 0x20 to 0xFF comment the ```FONT_END7F``` definition in */libraries/S65Display/fonts.h*.
 Use Umlaut characters as hex values, for example "Test \x84 \x94 \x81 \x8E \x99 \x9A" to display "Test ä ö ü Ä Ö Ü"
 
     0x84 = ä, 0x8E = Ä, 0x94 = ö, 0x99 = Ö, 0x81 = ü, 0x9A = Ü*
@@ -215,7 +215,7 @@ Unmount the memory card.
 
 See also the FatFS docu for more information about the file system functions (*f_open()*...):
 */libraries/SDcard/doc/00index_e.html* or http://elm-chan.org/fsw/ff/00index_e.html
-To enable LFN support (long file names) set **_USE_LFN** to **1** in */libraries/SDcard/ffconf.h*. The *Demo2* has also LFN support.
+To enable LFN support (long file names) set ```_USE_LFN``` to **1** in */libraries/SDcard/ffconf.h*. The *Demo2* has also LFN support.
 
 
 ## Pin Map
