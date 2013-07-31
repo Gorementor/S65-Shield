@@ -1,22 +1,18 @@
-#ifdef __cplusplus
-extern "C" {
-#endif
-  #include <inttypes.h>
-  #include <avr/io.h>
-  #include <avr/interrupt.h>
-  #include <avr/pgmspace.h>
-  #include <util/delay.h>
-  #include "fonts.h"
-#ifdef __cplusplus
-}
+#include <inttypes.h>
+#if defined(__AVR__)
+# include <avr/io.h>
+# include <avr/interrupt.h>
+# include <avr/pgmspace.h>
+# include <util/delay.h>
 #endif
 #if ARDUINO >= 100
-#include "Arduino.h"
+# include "Arduino.h"
 #else
-#include "WProgram.h"
+# include "WProgram.h"
 #endif
 #include "../digitalWriteFast/digitalWriteFast.h"
 #include "S65Display.h"
+#include "fonts.h"
 #include "ls020.h"
 #include "lph88.h"
 #include "l2f50.h"
@@ -60,9 +56,9 @@ void S65Display::init(uint8_t clock_div)
       defined(__AVR_ATmega2561__))     //--- Arduino Mega ---
 #  define S65_SS_PORTBIT (0) //PB0
 # elif defined(__AVR_ATmega32U4__)     //--- Arduino Leonardo ---
-#  define SS_PORTBIT (0) //PB0
+#  define S65_SS_PORTBIT (0) //PB0
 # else                                 //--- Arduino Uno ---
-#  define SS_PORTBIT (2) //PB2
+#  define S65_SS_PORTBIT (2) //PB2
 # endif
   if(!(DDRB & (1<<S65_SS_PORTBIT))) //SS is input
   {

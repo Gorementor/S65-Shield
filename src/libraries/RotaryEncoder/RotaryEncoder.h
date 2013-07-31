@@ -2,13 +2,7 @@
 #define RotaryEncoder_h
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-  #include <inttypes.h>
-#ifdef __cplusplus
-}
-#endif
+#include <inttypes.h>
 
 
 #define SW_PRESSED           (1)

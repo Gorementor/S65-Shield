@@ -1,16 +1,12 @@
-#ifdef __cplusplus
-extern "C" {
-#endif
-  #include <inttypes.h>
-  #include <avr/io.h>
-  #include <util/delay.h>
-#ifdef __cplusplus
-}
+#include <inttypes.h>
+#if defined(__AVR__)
+# include <avr/io.h>
+# include <util/delay.h>
 #endif
 #if ARDUINO >= 100
-#include "Arduino.h"
+# include "Arduino.h"
 #else
-#include "WProgram.h"
+# include "WProgram.h"
 #endif
 #include "../digitalWriteFast/digitalWriteFast.h"
 #include "S65Display.h"
