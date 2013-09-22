@@ -6,6 +6,12 @@ Shop: [S65-Shield](http://www.watterott.com/en/Arduino-S65-Shield)
 ![S65-Shield](https://raw.github.com/watterott/S65-Shield/master/img/s65-shield.jpg)
 
 
+## Features
+* Color display with 176x132 pixel
+* Rotary-Encoder
+* microSD Socket (SPI)
+
+
 ## Hardware
 ![S65-Shield hardware dia](https://raw.github.com/watterott/S65-Shield/master/img/hw_dia.png)
 
