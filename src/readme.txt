@@ -1,11 +1,12 @@
-S65-Shield Software Library
+S65-Shield Software Package
 ===========================
-  Visit github.com/watterott/s65-shield for updates.
+  Visit https://github.com/watterott/S65-Shield for updates.
 
 
 Documentation
 -------------
   See docu.md
+    https://github.com/watterott/S65-Shield/blob/master/src/docu.md
 
 
 Third party software
@@ -27,11 +28,12 @@ Third party software
 License
 -------
   See license.txt
+    https://github.com/watterott/S65-Shield/blob/master/src/license.txt
 
 
 History
 -------
-         2013  v0.24  New directory struct.
+  Oct 01 2013  v0.24  New directory struct.
 
   Mar 28 2012  v0.23  Arduino 1.0 compatible.
                       S65Display Mega bugfix.
