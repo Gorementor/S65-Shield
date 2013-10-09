@@ -6,6 +6,8 @@ http://www.mon-club-elec.fr/pmwiki_reference_arduino/pmwiki.php?n=Main.Librairie
 
 ## Installation
 
+Download the files [here](https://github.com/watterott/S65-Shield/archive/master.zip).
+
 Copy the content of */libraries/* to your Arduino lib folder */arduino/libraries/* or to your user documents folder */My Documents/Arduino/libraries/*
 If there are existing folders from a previous installation, please delete them before copying.
 
@@ -27,6 +29,11 @@ and comment the following lines:
 
     libraries/S65Display/S65Display.h:23 (#define S65_SOFTWARE_SPI)
     libraries/SDcard/mmc.h.h:63 (#define SD_SOFTWARE_SPI)
+
+
+## Examples
+
+Examples can be found in the Arduino IDE under ```File -> Examples -> S65Shield```.
 
 
 ## Libraries

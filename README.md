@@ -17,7 +17,7 @@ Shop: [S65-Shield](http://www.watterott.com/en/Arduino-S65-Shield)
 
 
 ## Software
-* [Arduino Library + Examples](https://github.com/watterott/S65-Shield/tree/master/src)
+* [Arduino Library with Examples](https://github.com/watterott/S65-Shield/tree/master/src)
 
 
 ## Projects
