@@ -16,8 +16,8 @@ The S65-Shield is a plug-on module with color TFT-Display (176x132), microSD soc
 
 
 ## Software
-* [Arduino Library with Examples](https://github.com/watterott/Arduino-Libs)
-* [Old Arduino Library with Examples](https://github.com/watterott/S65-Shield/tree/da4eeeb2683e48dbeafd6923b010ca1eb41107df/src)
+* [Arduino Library and Examples](https://github.com/watterott/Arduino-Libs)
+* [Old Arduino Library and Examples](https://github.com/watterott/S65-Shield/tree/da4eeeb2683e48dbeafd6923b010ca1eb41107df/src)
 
 
 ## Projects
